@@ -1,10 +1,38 @@
 package jSnacks;
 
-import java.util.Scanner;
+// import java.util.Scanner;
 // import java.util.ArrayList;
 
 public class RegistroStudenti {
 
+	private String[] elencoStudenti;
+
+	public RegistroStudenti() {
+		this.elencoStudenti = new String[5];
+
+	}
+
+	public void addStudenti() {
+		
+		Studente dati = new Studente(null, null);
+		for (int i = 0; i < elencoStudenti.length; i++) {
+			System.out.print("Studente " + (i + 1) + " ");
+			dati.setStudente();
+			elencoStudenti[i] = dati.getStudente();
+		}
+
+	}
+
+	public void getStudenti() {
+		for (int i = 0; i < elencoStudenti.length; i++) {
+			System.out.println((i + 1) + " " + elencoStudenti[i]);
+		}
+
+	}
+	
+	
+	
+	/* << ARRAY FINITO >>
 	private String[] elencoStudenti;
 
 	public RegistroStudenti() {
@@ -29,7 +57,7 @@ public class RegistroStudenti {
 
 	}
 
-	
+	*/
 	
 	
 	

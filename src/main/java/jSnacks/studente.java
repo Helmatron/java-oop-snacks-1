@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Studente {
 	
-	// Tentativo di creare oggetto studente
 	private String name;
 	private String surname;
 	
@@ -19,6 +18,10 @@ public class Studente {
 		this.name = input.nextLine();
 		System.out.println("Inserire il Cognome dello studente");
 		this.surname = input.nextLine();
+	}
+	
+	public String getStudente() {
+		return this.name + " " + this.surname;
 	}
 	
 }
