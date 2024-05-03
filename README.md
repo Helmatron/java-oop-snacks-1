@@ -1,23 +1,20 @@
 # java-oop-snacks-1
  
-/**
- * Crea una classe RegistroStudenti che rappresenti 
- * un registro di studenti.
 
+>> Crea una classe RegistroStudenti che rappresenti un registro di studenti.
 
-
-Utilizza un array privato per memorizzare oggetti Studente.
-	private String[] Studenti;
+>> Utilizza un array privato per memorizzare oggetti Studente. (una classe?)
 	
 
-
-Gli studenti hanno nome e cognome
-
-
-
+	private String[] Studenti;
+	
+	Gli studenti hanno nome e cognome, creare una classe? o instanziare attributi
 
 
- * Implementa un costruttore senza parametri per inizializzare il registro vuoto
+
+
+
+ >> Implementa un costruttore senza parametri per inizializzare il registro vuoto
 	public registroStudenti() {
 		This.Studenti = new Studenti[15];
 		Studenti[0] = "Maria Bria"
@@ -30,8 +27,11 @@ Gli studenti hanno nome e cognome
 
 	L'array deve cambiare la sua lunghezza per poter inserire nuovi studenti?
 	un array non può cambiare la sua lunghezza.
- * 
- * Aggiungi un metodo che stampi la lista degli studenti.
+	Si crea un nuovo array.
+ 
+
+
+ >> Aggiungi un metodo che stampi la lista degli studenti.
 
 	public void getStudenti() {
 		System.out.println(Studenti.length);

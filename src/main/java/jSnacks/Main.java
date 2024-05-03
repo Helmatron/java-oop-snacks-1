@@ -6,10 +6,14 @@ public class Main {
 		
 		
 		RegistroStudenti dati = new RegistroStudenti();
+		dati.addStudenti();
+		dati.getStudenti();
 		
 		
 		
-		/*
+		
+		
+		/* << ESPERIMENTO CON ARRAY LIST >>
 		RegistroStudenti dati = new RegistroStudenti();
 		dati.addStudenti();
 		dati.getStudenti();
@@ -19,7 +23,7 @@ public class Main {
 		
 		
 		
-		/*
+		/* << ARRAY prova 1 >>
 		RegistroStudenti dati = new RegistroStudenti();
 		dati.getStudenti();	
 		 */
