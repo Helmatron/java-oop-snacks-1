@@ -7,6 +7,7 @@ public class Main {
 		
 		RegistroStudenti dati = new RegistroStudenti();
 		dati.addStudenti();
+		System.out.println("Il registro degli studenti è pronto!");
 		dati.getStudenti();
 		
 		
